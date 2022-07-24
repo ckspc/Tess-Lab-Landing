@@ -1,6 +1,7 @@
 .about {
     background-color: #f8f8f8;
     margin: auto;
+    height: 90vh;
     padding: 8rem 1rem 0 1rem;
     width: 100%;
 }
@@ -39,8 +40,13 @@
 }
 
 @media screen and (max-width:940px) {
+    .about{
+        margin-bottom: 100%;
+    }
     .about .container {
         grid-template-columns: 1fr;
+        margin-top: 200px;
+        
     }
 
     .about .container {

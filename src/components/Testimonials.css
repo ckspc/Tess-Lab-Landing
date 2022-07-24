@@ -1,5 +1,6 @@
 .testimonials {
     width: 100%;
+    height: 90vh;
 }
 
 .testimonials .container {
@@ -46,6 +47,10 @@
 }
 
 @media screen and (max-width: 940px) {
+    .testimonials{
+        margin-bottom: 100%;
+    }
+
     .testimonials .container {
         width: 100%;
     }
